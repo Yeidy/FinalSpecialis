@@ -1,0 +1,230 @@
+
+
+nav{
+    position: relative;
+    background: rgb(0, 0, 0);
+    height: 60px;
+    color: #ffffff;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.row, .col, section {
+    margin: 0px;
+}
+nav ul li{
+    display: inline;
+    margin: 0px 1rem;
+}
+nav ul li a{
+    margin: 0 1rem;
+    opacity: 1;
+}
+/* nav ul li a:hover{
+    opacity: 1;
+    transition-property: all; 
+    transition-duration: 0.4s;
+} */
+
+.row{
+    margin-bottom: 0%;
+    margin-right: 0%;
+  
+    /* background: linear-gradient(black,white); */
+  
+    /* size:50%; */
+}
+nav ul li h2{
+    margin-top: 0px;
+    padding: 0px;
+    margin-left: 1000px;
+    font-size: x-large;
+    position: absolute;
+}
+
+
+.img_user{
+    width: 60px;
+    height: 60px;
+    border-radius: 80px;
+    border: 4px solid #666;
+    position: absolute;
+    left: 90%;
+}
+ section{
+    background-color: rgb(192, 189, 189); 
+} 
+
+section img{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 35vw;
+    height: 35vh;
+}
+
+section h2{
+    position: absolute;
+    top: 10px;
+}
+
+.web_ar{
+ position: absolute;
+ margin-left: 15px;
+}
+.boton{
+    width: 30px;
+    height: 30px;
+    background-color: #4d524d;
+    margin: 5px 5px 5px 40px;
+    padding: 0px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font-size: 15px;
+    line-height: 15px;
+    text-transform: capitalize;
+    float: left;
+  } 
+  .boton:hover{
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter:alpha (opacity=50);
+  }
+  .boton a{
+    color: #fff;
+    text-decoration: none;
+  } 
+
+  .boton1{
+    margin-left: 20px;
+   width: 300px;
+   height: 30px;
+   text-align: center;
+   padding: 0%;
+   text-align: center;
+
+  } 
+  .boton1:hover{
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter:alpha (opacity=50);
+  }
+  .boton1 a{
+    color:#fff;
+    text-decoration:none;
+    text-decoration-line: none;
+  } 
+
+  a:link , a visited{
+    color: (internal value);
+    text-decoration: none;
+    cursor: auto;
+  }
+
+  p{
+      padding: 2rem 2rem 1rem 2rem;
+      
+  }
+
+.line{
+    height: 100vh;
+    width: 2px;
+    background: linear-gradient(black,white)
+} 
+
+
+    /* --------------------------------------------------------------------------------- */
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 0;
+    right: 1;
+    z-index: 1;
+    background-color: #696363;
+    overflow-x: hidden;
+    transition: 1.4s;
+    padding: 1rem 0;
+    box-sizing:border-box;
+}
+
+.sidebar .boton-cerrar {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 2rem;
+    display: flex;
+    padding: 0;
+    line-height: 1.5rem;
+    margin: 0;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.sidebar ul, .sidebar li{
+    margin:0;
+    padding:0;
+    list-style:none inside;
+}
+
+.sidebar ul {
+    margin: 4rem auto;
+    display: block;
+    width: 80%;
+    min-width:200px;
+}
+
+.sidebar a {
+    display: block;
+    font-size: 120%;
+    color: #eee;
+    text-decoration: none;
+    
+}
+
+.sidebar a:hover{
+    color:rgb(5, 5, 5);
+    background-color: rgb(201, 198, 193);
+
+}
+
+#contenido {
+    transition: margin-left .4s;
+    padding: 1rem;
+}
+
+#cerrar {
+    display:none;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+/* .formulario_pet{
+ background-image: url("https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ec073341402b36bb155e3bcb77eea9cd&auto=format&fit=crop&w=500&q=60");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.formulario_app{
+ background-image: url("https://images.unsplash.com/photo-1458862768540-8b091824fe2d?ixlib=rb-0.3.5&s=2efde37d56135165410412b6e2cf71e4&auto=format&fit=crop&w=752&q=80");
+ background-repeat: no-repeat;
+ background-size: cover;
+} */
+
+form {
+    margin: 17% 10%;
+}
+
+.form2{
+    margin: 5% 10%;
+}
+.form_text{
+    position: absolute;
+    top: 28.9px;
+    margin-left:10%;
+}

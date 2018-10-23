@@ -1,0 +1,25 @@
+.fondo_login {
+    padding: 0;
+    margin: 0;
+    background-image: url('imagenes/dientemolon.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    position: relative;
+    background-color: rgba(199, 199, 199, 0.705);
+    width: 40%;
+    margin: 3% auto;
+    border-radius: 40px;
+    text-align: center;
+    top: 65px;
+}
+
+form h1 {
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+    color: #fff;
+}
